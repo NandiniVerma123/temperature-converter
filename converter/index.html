@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Temperature Converter</h1>
+    <div class="converter">
+      <!-- Input Field -->
+      <input type="text" id="tempInput" placeholder="Enter temperature" />
+
+      <!-- Dropdown for Units -->
+      <select id="unitSelect">
+        <option value="Celsius">Celsius</option>
+        <option value="Fahrenheit">Fahrenheit</option>
+        <option value="Kelvin">Kelvin</option>
+        <option value="Reaumur">Reaumur</option>
+      </select>
+
+      <!-- Convert Button -->
+      <button id="convertBtn">Convert</button>
+
+      <!-- Result Display -->
+      <div id="result" class="result"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
